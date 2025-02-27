@@ -8,7 +8,7 @@ import { UserOptions } from "./UserOptions"
 export const NavBarv2 = () => {
 
     const { menuState, setMenuState, isAuthenticated, isAdmin } = useAuth()
-    const menuOptions = ['PracticaCero: Corrimiento']
+    const menuOptions = ['PracticaCero:Corrimiento']
 
     return (
         <nav className="border-gray-200 bg-gray-50 dark:bg-zinc-700 dark:border-gray-700 rounded-md my-3">

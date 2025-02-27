@@ -19,7 +19,7 @@ function App() {
             {/* Protected Routes */}
             <Route element={<ProtectedRoutes />}>
               {/* Practica_Cero_Corrimiento */}
-              <Route path="/PracticaCero: Corrimiento" element={<PracticaCeroPage />} />
+              <Route path="/PracticaCero:Corrimiento" element={<PracticaCeroPage />} />
 
             </Route>
           </Routes>

@@ -12,7 +12,10 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.8",
     "axios": "^1.7.9",
+    "bmp-js": "^0.1.0",
+    "buffer": "^6.0.3",
     "flowbite": "^3.1.2",
+    "image-js": "^0.36.0",
     "js-cookie": "^3.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
