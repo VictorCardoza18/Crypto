@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost/crypto');
+        await mongoose.connect('mongodb://127.0.0.1:27017/crypto');
         console.log('>>> DB is connected');
 
     } catch (error) {

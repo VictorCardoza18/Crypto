@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
-import { LoginPage, RegisterPage, PracticaCeroPage } from './pages'
+import { LoginPage, RegisterPage, PracticaCeroPage,PracticaCifradoAffin } from './pages'
 import { AuthProvider } from './context'
 import { NavBarv2 } from './components'
 import { ProtectedRoutes } from './ProtectedRoutes'
@@ -19,8 +19,14 @@ function App() {
             {/* Protected Routes */}
             <Route element={<ProtectedRoutes />}>
               {/* Practica_Cero_Corrimiento */}
+<<<<<<< Updated upstream
               <Route path="/PracticaCero: Corrimiento" element={<PracticaCeroPage />} />
 
+=======
+              <Route path="/PracticaCero:Corrimiento" element={<PracticaCeroPage />} />
+              <Route path="/PracticaCifradoAffin" element={<PracticaCifradoAffin />} />
+              
+>>>>>>> Stashed changes
             </Route>
           </Routes>
         </main>
