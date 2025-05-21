@@ -43,9 +43,12 @@ export const LoginPage = () => {
                         placeholder='Password'
                     />
                     {errors.password && <p className='text-red-500'>Password is required</p>}
-                    <button type="submit" className='bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md my-2'>Login</button>
+                    <button type="submit" className='bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md my-2 w-full'>Login</button>
                 </form>
-                <p className='flex gap-x-2 justify-between'>Do not have an account? <Link className='text-sky-500' to='/register'>Register</Link></p>
+                <div className='flex flex-col gap-2 mt-4'>
+                    <p className='flex gap-x-2 justify-between'>Do not have an account? <Link className='text-sky-500' to='/register'>Register</Link></p>
+                    <p className='flex gap-x-2 justify-between'>Forgot your password? <Link className='text-sky-500' to='/forgot-password'>Recover Password</Link></p>
+                </div>
             </div>
         </div>
     )
